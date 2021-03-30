@@ -8,6 +8,7 @@ import auth from "firebase/auth";
 import About from "../pages/About";
 import AirsoftInfo from "../pages/AirsoftInfo";
 import ErrorPage from "../pages/ErrorPage";
+import Contact from "../pages/Contact";
 
 Vue.use(Router);
 
@@ -34,6 +35,11 @@ export default new Router({
             path: "/about",
             name: "about",
             component: About
+        },
+        {
+            path: "/contact",
+            name: "contact",
+            component: Contact
         },
         {
             path: "/airsoftinfo",

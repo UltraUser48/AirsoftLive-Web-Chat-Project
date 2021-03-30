@@ -64,6 +64,9 @@
   <div style=" height:500px; width:150%; background:url('https://www.wallpaperuse.com/wallp/49-490947_m.jpg')">
     <router-link to="/about" tag="button" class="btn btn-dark btn-lg ">About</router-link>
   </div>
+   <div style=" height:500px; width:150%; background:url('https://cdn.hipwallpaper.com/i/32/34/epgxOl.jpg')">
+    <router-link to="/contact" tag="button" class="btn btn-dark btn-lg ">Contact</router-link>
+  </div>
     <div class="jumbotron bg-secondary text-white text-center">
       <h2 class="lead display-3"></h2>
  

@@ -1,7 +1,11 @@
 <template>
 <div style="background-color: gray">
         <br/>
+
+ <h2 class="text-warning"> What is Airsoft ? </h2>
+ </br>
         <div>
+
             <p class="text-light">
                Airsoft is a competitive team shooting sport in which participants eliminate opposing players with spherical plastic projectiles launched via replica air weapons called airsoft guns.
 
