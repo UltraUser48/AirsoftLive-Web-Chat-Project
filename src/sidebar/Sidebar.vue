@@ -2,9 +2,11 @@
     <div style=" background:url('https://i.pinimg.com/736x/36/9a/c5/369ac54de18468bd17e78a7066651d07.jpg')">
 
         <h2 class="text-light">#Airsoft Live Chat Platform</h2>
-        <hr style="border: 2px solid #333;">
+        <hr style="border: 2px solid #999;">
 
         <span>
+        <h4 class = "text-light">Account and Actions</h4>
+        <br/>
             <img class="rounded-circle mr-2" height="30" :src="currentUser.photoURL" />
             <span class="text-light">{{ currentUser.displayName }}</span> 
         </span>
@@ -16,7 +18,7 @@
 
         <br/>
         <br/>
-
+       
         <channels></channels>
 
         <br/>

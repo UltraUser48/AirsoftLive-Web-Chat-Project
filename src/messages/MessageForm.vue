@@ -9,7 +9,7 @@
 
             <form @submit.prevent="sendMessage">
                 <div class="input-group mb-3">
-                    <input v-model.trim="message" name="message" id="message" placeholder="Write something" class="form-control mt-3" autofocus>
+                    <input v-model.trim="message" name="message" id="message" placeholder="Type your question or message" class="form-control mt-3" autofocus>
 
                     <div class="input-group-append">
                         <button @click="sendMessage" class="btn btn-dark mt-3" type="button">&nbsp; Send &nbsp;</button>

@@ -3,6 +3,7 @@
         <button @click="openModal" class="btn btn-outline-success">Add Channel</button>
         <br/>
         <br/>
+        <br/>
 <h4 class="modal-title text-light">Channels</h4>
       
         <div class="mt-4">

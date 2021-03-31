@@ -29,12 +29,12 @@
                         </span>
                     </span>
                   </big>
-        <br>
+        <br/>
         <div class="alert alert-danger" v-if="hasErrors">
           <div v-for="error in errors">{{ error }}</div>
         </div>
       </form>
-
+ <br/>
       <form v-if="fpform">
         <div class="input-group">
           <input v-model.trim="forgot_password" type="email" name="forgot_password" class="form-control" placeholder="Email to send password reset link">
